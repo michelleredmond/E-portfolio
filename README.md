@@ -4,11 +4,19 @@
 Computer Science, BS
 
   ![1](https://github.com/michelleredmond/E-portfolio/assets/79543604/2afa5744-62ed-4914-a48f-25b9d440225c)
+  
+  Professional Self-Assessment
+  ![2](https://github.com/michelleredmond/E-portfolio.io/assets/79543604/cea03338-27c5-4622-a703-d597316af62b)
+  
+ 
+  ![3](https://github.com/michelleredmond/E-portfolio.io/assets/79543604/63d8d2fc-65a0-486e-a7eb-164be77a8521)
 
-  ###Code Review
+  Code Review
   ![4](https://github.com/michelleredmond/E-portfolio/assets/79543604/564abbfe-9c49-4928-8423-95a7f592f330)
 
-###Projects 
+  ###Projects 
+
+
 Junit Test 
 ![5](https://github.com/michelleredmond/E-portfolio/assets/79543604/9e953b55-b71d-40eb-a241-ddbe2c3c087a)
 
