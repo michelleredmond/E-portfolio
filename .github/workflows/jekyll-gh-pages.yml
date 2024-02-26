@@ -49,9 +49,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-            - name: Upload a Build Artifact
-  uses: actions/upload-artifact@v4.3.1
+        
+        
+        name: Upload a Build Artifact
+ uses: actions/upload-artifact@v4.3.1
   with:
     # Artifact name
     name: # optional, default is artifact
@@ -74,4 +75,35 @@ Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
     # If true, an artifact with a matching name will be deleted before a new one is uploaded. If false, the action will fail if an artifact for the given name already exists. Does not fail if the artifact does not exist.
 
     overwrite: # optional, default is false
+          
+
+            - name: PortfolioFy
+  # You may pin to the exact commit or the version.
+  # uses: kaustubhgupta/PortfolioFy@26613f58457e021bf1f420c4d81626ff284100cd
+  uses: kaustubhgupta/PortfolioFy@v3.2.1
+  with:
+    # Github Personal Access token
+    gh_token: 
+    # Type of webpage you want to render
+    theme: # optional, default is 1
+    # Include blogs in your Portfolio
+    blogs: # optional
+    # Include hackathon projects.
+    hackathons: # optional
+    # Type of GitHub Stats
+    stats_choice: # optional, default is 1
+    # Custom parameters for the GitHub stats choosen
+    stats_customization: # optional
+    # Path of the current Repo
+    current_repo_path: # optional, default is ${{ github.workspace }}
+    # Name of the current branch
+    current_repo_branch: # optional, default is ${{ github.ref }}
+    # Link for resume pdf uploaded online
+    resume_link: # optional
+    # Display Creator Credits
+    allow_footer: # optional, default is true
+    # Sorting the projects according to count of number of stars or forks
+    project_sort_by: # optional, default is stars
+    # Linkedin, Twitter, Stackoverflow, Medium, Devto
+    social_links: # optional
           
